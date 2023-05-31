@@ -1,9 +1,9 @@
 package com.tugalsan.api.sql.cell.client;
 
-import com.google.gwt.user.client.rpc.IsSerializable;
 import com.tugalsan.api.string.client.*;
+import java.io.Serializable;
 
-public class TGS_SQLCellSTR extends TGS_SQLCellAbstract implements IsSerializable {
+public class TGS_SQLCellSTR extends TGS_SQLCellAbstract implements Serializable {
 
     @Override
     public TGS_SQLCellSTR cloneIt() {
