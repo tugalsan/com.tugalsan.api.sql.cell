@@ -2,7 +2,7 @@ package com.tugalsan.api.sql.cell.client;
 
 import java.io.Serializable;
 
-public class TGS_SQLCellLNG extends TGS_SQLCellAbstract implements Serializable {
+final public class TGS_SQLCellLNG extends TGS_SQLCellAbstract implements Serializable {
 
     @Override
     public TGS_SQLCellLNG cloneIt() {
