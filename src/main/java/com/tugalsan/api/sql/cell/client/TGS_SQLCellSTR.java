@@ -16,7 +16,7 @@ final public class TGS_SQLCellSTR extends TGS_SQLCellAbstract implements Seriali
     }
 
     final public void imitateValueString(CharSequence valueString) {
-        this.valueString = TGS_StringUtils.toEmptyIfNull(valueString);
+        this.valueString = TGS_StringUtils.cmn().toEmptyIfNull(valueString);
     }
 
     public TGS_SQLCellSTR() {
